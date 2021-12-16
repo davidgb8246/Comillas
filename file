@@ -1,1 +1,3 @@
-"
+$Audio = New-Object System.Media.SoundPlayer
+$Audio.SoundLocation = "C:/Windows/Media/Ring08.wav"
+$Audio.PlayLooping()
